@@ -1,0 +1,205 @@
+.expense-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+.add-btn{
+
+    background:var(--primary);
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:8px;
+
+    font-size:15px;
+
+}
+
+.add-btn:hover{
+
+    background:var(--primary-hover);
+
+}
+.modal-overlay{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,.5);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:1000;
+
+}
+
+.modal{
+
+    width:450px;
+
+    background:var(--card);
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.modal h2{
+
+    margin-bottom:20px;
+
+}
+
+.modal label{
+
+    display:block;
+
+    margin-top:15px;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.modal input,
+.modal select,
+.modal textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid var(--border);
+
+    border-radius:8px;
+
+    background:transparent;
+
+    color:var(--text);
+
+    font-size:15px;
+
+}
+
+.modal textarea{
+
+    resize:none;
+
+}
+
+.modal-buttons{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:15px;
+
+    margin-top:25px;
+
+}
+
+.save-btn{
+
+    background:var(--primary);
+
+    color:white;
+
+    border:none;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+
+}
+
+.cancel-btn{
+
+    background:#ef4444;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+
+}
+
+.save-btn:hover{
+
+    background:var(--primary-hover);
+
+}
+
+.cancel-btn:hover{
+
+    opacity:.9;
+
+}
+.filters{
+
+    display:flex;
+
+    gap:20px;
+
+    margin-bottom:25px;
+
+}
+
+.filters input{
+
+    flex:1;
+
+    padding:12px;
+
+    border:1px solid var(--border);
+
+    border-radius:8px;
+
+    background:var(--card);
+
+    color:var(--text);
+
+}
+
+.filters select{
+
+    width:200px;
+
+    padding:12px;
+
+    border:1px solid var(--border);
+
+    border-radius:8px;
+
+    background:var(--card);
+
+    color:var(--text);
+
+}

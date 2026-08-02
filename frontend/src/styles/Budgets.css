@@ -1,0 +1,25 @@
+.budget-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.filters{
+    display:flex;
+    gap:20px;
+    margin-bottom:20px;
+}
+
+.filters input,
+.filters select{
+    padding:10px;
+    border-radius:8px;
+    border:1px solid var(--border);
+    background:var(--card);
+    color:var(--text);
+}
+
+.filters input{
+    flex:1;
+}

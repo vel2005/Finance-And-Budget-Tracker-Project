@@ -1,0 +1,59 @@
+.income-table-container {
+  margin-top: 30px;
+  background: var(--card);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.income-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.income-table th {
+  background: var(--primary);
+  color: white;
+  padding: 15px;
+  text-align: left;
+}
+
+.income-table td {
+  padding: 15px;
+  border-bottom: 1px solid var(--border);
+}
+
+.income-table tr:hover {
+  background: rgba(37, 99, 235, 0.05);
+}
+
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: var(--secondary-text);
+}
+
+.edit-btn {
+  background: #f59e0b;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+  opacity: 0.9;
+}

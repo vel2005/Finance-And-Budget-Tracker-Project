@@ -1,0 +1,45 @@
+:root{
+
+    --primary:#2563eb;
+    --primary-hover:#1d4ed8;
+
+    --background:#eef5ff;
+
+    --card:#ffffff;
+
+    --text:#1e293b;
+
+    --secondary-text:#64748b;
+
+    --border:#dbe4f0;
+
+    --sidebar:#0f172a;
+
+    --navbar:#2563eb;
+
+    --shadow:0 8px 30px rgba(0,0,0,.08);
+
+}
+
+.dark{
+
+    --primary:#3b82f6;
+    --primary-hover:#60a5fa;
+
+    --background:#020617;
+
+    --card:#172554;
+
+    --text:#f8fafc;
+
+    --secondary-text:#cbd5e1;
+
+    --border:#334155;
+
+    --sidebar:#0f172a;
+
+    --navbar:#111827;
+
+    --shadow:0 8px 30px rgba(0,0,0,.45);
+
+}

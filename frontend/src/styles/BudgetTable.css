@@ -1,0 +1,50 @@
+.budget-table-container{
+    background:var(--card);
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:var(--shadow);
+}
+
+.budget-table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.budget-table th{
+    background:var(--primary);
+    color:white;
+    padding:15px;
+}
+
+.budget-table td{
+    padding:15px;
+    border-bottom:1px solid var(--border);
+}
+
+.budget-table tr:hover{
+    background:rgba(0,0,0,.03);
+}
+
+.no-data{
+    text-align:center;
+    padding:30px;
+}
+
+.edit-btn{
+    background:#f59e0b;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:6px;
+    cursor:pointer;
+    margin-right:8px;
+}
+
+.delete-btn{
+    background:#ef4444;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:6px;
+    cursor:pointer;
+}
